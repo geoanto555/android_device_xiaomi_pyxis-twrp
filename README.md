@@ -1,12 +1,25 @@
-# android_device_xiaomi_pyxis-twrp
-Source to compile twrp android 9-10
 
-Το compile 
 
-. build/envsetup.sh
+Building TWRP for Xiaomi Mi9 Lite
 
-lunch omni_pyxis-eng
+Working
+
+ADB
+
+Decryption userdata
+
+Screen brightness settings
+
+Correct screenshot color
+
+MTP
+
+To compile
+
+build/envsetup.sh
 
 export ALLOW_MISSING_DEPENDENCIES=true
 
-make -j(X) recoveryimage
+lunch omni_pyxis-eng
+
+make -jX recoveryimage
