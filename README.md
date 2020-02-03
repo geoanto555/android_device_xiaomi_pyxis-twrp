@@ -5,6 +5,7 @@ Building TWRP for Xiaomi Mi9 Lite
 Working :
 
 ADB
+
 Decryption userdata
 
 Screen brightness settings
